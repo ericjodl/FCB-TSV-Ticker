@@ -1,0 +1,15 @@
+# Ignore everything
+*
+
+# Allow only what we need
+!src
+!public
+!package.json
+!package-lock.json
+!next.config.js
+!tsconfig.json
+!tailwind.config.ts
+!postcss.config.js
+
+# Ignore node_modules in src
+src/node_modules
